@@ -25,3 +25,4 @@ for index, todo in enumerate(todos):
 st.text_input(label="todo_to_add", label_visibility='hidden', placeholder="Add new todo...",
               key='new_todo', on_change=add_todo)
 
+
